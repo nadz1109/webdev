@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<title>Login page</title>
+		<style>
+			*{
+				background-color: #ffebcd;
+			}
+			header{
+				background-color: #d2b48c;
+				color: #a67b5b;
+				font-weight: bold;
+				text-align: left;
+				padding: 20px;
+			}
+			.nav_menu{
+				
+				background-color: #836953;
+				/*
+				text-align: left;
+				padding: 10px;
+				*/
+				overflow: hidden;
+
+			}
+			.nav_menu a{
+				float: left;
+				background-color: #836953 ;
+				display : block;
+				text-align : center;
+				padding: 14px 16px;
+				color: #d2b48c;
+				text-decoration: none;
+			}
+			.nav_menu a:hover{
+				background-color: #d2b48c;
+				color: #836953;
+			}
+			/* body{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				margin: 0;
+			} */
+			fieldset {
+           			border: 1px solid brown;
+           			padding: 10px;
+          			margin: 0;
+       			}
+			label{
+				display: block;
+			}
+			input[type="text"],input[type="password"],input[type="email"],input[type="date"]{
+				width: 100%;
+				background-color: #faf0e6 ;
+			}
+			input[type="submit"]{
+
+				color: white;
+				background-color: #836953 ;
+			}
+			input[type="submit"]:hover{
+				
+				background-color: #d2b48c ;
+				color : #836953;
+				font-weight: bold;
+			}
+
+			footer{
+				color: white;
+				background-color: #836953;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<header> <h1 style="background-color: #d2b48c">Login Page</h1></header>
+
+		<nav class="nav_menu">
+			<a href="C:\Users\nadis\OneDrive\Desktop\web_dev\dashboard.html" title="Profile page" > Dashboard </a>  <a href="#" title="Already a user? Login"> Login </a> <a href="C:\Users\nadis\OneDrive\Desktop\web_dev\signup.html" title="New user? Signup"> Signup </a>
+
+		</nav>
+
+		<main>
+			<form>
+				<fieldset>
+					<legend style="text-align: left"> Login </legend>
+					<label for="name"> Name: </label>
+					<input type="text" id="name" name="name" required> 
+					<label for="password"> Password: </label>
+					<input type="password" id="password" name="pass" required> 
+					<input type="submit">
+				</fieldset>
+			</form>
+		</main>
+
+		<footer>
+			Contact details:.....<br>
+			&copy; 2024 Styled Page
+		</footer>
+	</body>
+</html>
